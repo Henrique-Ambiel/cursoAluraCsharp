@@ -30,3 +30,4 @@ C:\Users\Usuario\Downloads\cursoAluraCsharp\cursoAlurac#\cursoAlurac#\obj\Debug\
 C:\Users\Usuario\Downloads\cursoAluraCsharp\cursoAlurac#\cursoAlurac#\obj\Debug\net9.0\cursoAlurac#.pdb
 C:\Users\Usuario\Downloads\cursoAluraCsharp\cursoAlurac#\cursoAlurac#\obj\Debug\net9.0\cursoAlurac#.genruntimeconfig.cache
 C:\Users\Usuario\Downloads\cursoAluraCsharp\cursoAlurac#\cursoAlurac#\obj\Debug\net9.0\ref\cursoAlurac#.dll
+C:\Users\Usuario\Downloads\cursoAluraCsharp\cursoAlurac#\cursoAlurac#\obj\Debug\net9.0\cursoAlurac#.sourcelink.json
