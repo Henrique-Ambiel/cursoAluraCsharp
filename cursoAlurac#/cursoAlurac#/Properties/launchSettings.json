@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "cursoAlurac#": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false,
+      "nativeDebugging": false
+    }
+  }
+}
