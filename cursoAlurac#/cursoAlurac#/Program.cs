@@ -100,6 +100,7 @@ void ViewTitleOptions(string title)
     Console.WriteLine(asterisks + "\n");
 }
 
+//Avaliar uma banda
 void EvaluateBand()
 {
     Console.Clear();
@@ -127,6 +128,7 @@ void EvaluateBand()
 
 }
 
+//Média de avaliação das bandas
 void BandAverage()
 {
     Console.Clear();
