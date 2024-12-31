@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 Console.OutputEncoding = Encoding.UTF8;
 
 //Screen Sound
@@ -47,7 +48,7 @@ void DisplayMenuOptions()
             break;
         case 3: EvaluateBand();
             break;
-        case 4: Console.WriteLine("Você digitou a opção: " + selectOption);
+        case 4: BandAverage();
             break;
         case -1: Console.WriteLine("Você saiu do programa!\nObrigado por testar");
             break;
@@ -124,6 +125,31 @@ void EvaluateBand()
         DisplayMenuOptions();
     }
 
+}
+
+void BandAverage()
+{
+    Console.Clear();
+    ViewTitleOptions("MÉDIA DAS BANDAS");
+    Console.Write("Digite a banda que deseja ver a média: ");
+    string bandName = Console.ReadLine()!;
+    if (dictionaryBands.ContainsKey(bandName))
+    {
+        List<int> gradeBands = dictionaryBands[bandName];
+        Console.WriteLine($"A média da banda {bandName} é: {gradeBands.Average()}");
+        Console.WriteLine("Digite qualquer tecla para retornar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();
+        DisplayMenuOptions();
+    }
+    else
+    {
+        Console.WriteLine("Banda não encontrada\n");
+        Console.WriteLine("Digite qualquer tecla para retornar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();    
+        DisplayMenuOptions();
+    }
 }
 
 DisplayMenuOptions();
