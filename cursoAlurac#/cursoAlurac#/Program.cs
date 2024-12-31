@@ -3,6 +3,7 @@ Console.OutputEncoding = Encoding.UTF8;
 
 //Screen Sound
 string messageWelcome = "Bem vindo ao Screen Sound";
+List<string> listBands = new List<string> {"U2", "Bon Jovi", "The Beatles"};
 
 //Função de exibir a logo do aplicativo
 void DisplayLogo()
@@ -36,7 +37,7 @@ void DisplayMenuOptions()
     {
         case 1: RegisterBand();
             break;
-        case 2: Console.WriteLine("Você digitou a opção: " + selectOption);
+        case 2: ViewBandsRegistered();
             break;
         case 3: Console.WriteLine("Você digitou a opção: " + selectOption);
             break;
@@ -53,11 +54,35 @@ void DisplayMenuOptions()
 void RegisterBand()
 {
     Console.Clear();
+    Console.WriteLine("******************");
     Console.WriteLine("REGISTRO DE BANDAS");
-    Console.Write("Digite o nome da banda aqui: ");
+    Console.WriteLine("******************");
+    Console.Write("\nDigite o nome da banda aqui: ");
     string bandName = Console.ReadLine()!;
-    Console.WriteLine($"A banda {bandName} foi registrada com sucesso");
+    listBands.Add(bandName);
+    Console.WriteLine($"\nA banda {bandName} foi registrada com sucesso");
     Thread.Sleep(2000);
+    Console.Clear();
+    DisplayMenuOptions();
+}
+
+//Exibe a lista com as bandas salvas
+void ViewBandsRegistered()
+{
+    Console.Clear();
+    Console.WriteLine("******************");
+    Console.WriteLine("BANDAS REGISTRADAS");
+    Console.WriteLine("******************\n");
+    //for (int i = 0; i < listBands.Count; i++)
+    //{
+    //    Console.WriteLine($"Banda: {listBands[i]}");
+    //}
+    foreach (string band in listBands)
+    {
+        Console.WriteLine($"Banda: {band}");
+    }
+    Console.WriteLine("\nDigite qualquer tecla para retornar");
+    Console.ReadKey();
     Console.Clear();
     DisplayMenuOptions();
 }

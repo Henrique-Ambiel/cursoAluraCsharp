@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cursoAlurac#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d599deb98ab686b5e02438eae6f7beec7fb1b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a89fb653a2f40134a4cb87c691591d3c866ff7a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("cursoAlurac#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cursoAlurac#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
