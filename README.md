@@ -30,7 +30,7 @@ Durante o desenvolvimento do Screen Sound, aprendi e apliquei conceitos básicos
   
 Como executar o projeto ▶️
 
-- Clone este repositório para sua máquina.
+- git clone https://github.com/Henrique-Ambiel/cursoAluraCsharp.git
   
 - Certifique-se de ter o .NET SDK instalado.
   
