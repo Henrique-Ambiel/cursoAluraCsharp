@@ -27,16 +27,6 @@ Durante o desenvolvimento do Screen Sound, aprendi e apliquei conceitos básicos
 - Manipulação de listas e dicionários para organizar e gerenciar informações.
   
 - Criação de programas simples com lógica estruturada.
-  
-## Como executar o projeto ▶️
-
-- git clone https://github.com/Henrique-Ambiel/cursoAluraCsharp.git
-  
-- Certifique-se de ter o .NET SDK instalado.
-  
-- Abra o terminal na pasta do projeto e execute o comando: dotnet run
-  
-Siga as instruções no console para explorar as funcionalidades do Screen Sound.
 
 ## Sobre o Curso 📖
 
